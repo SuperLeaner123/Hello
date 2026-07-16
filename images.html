@@ -13,10 +13,12 @@
 
         <p class="logo">Image Search</p>
 
-        <form action="#" class="search-form">
+        <form action="https://google.com/search" method="GET" class="search-form">
+            <input type="hidden" name="tbm" value="isch">
+            
             <div class="search">
                 <span class="search-icon material-symbols-outlined">search</span>
-                <input class="search-input" type="search" placeholder="Search images" name="q">
+                <input class="search-input" type="search" placeholder="Search images" name="q" required>
             </div>
 
             <div class="button-row">

@@ -13,18 +13,18 @@
 
         <p class="logo">Advanced Search</p>
 
-        <form class="advanced-form">
+        <form action="https://google.com/search" method="GET" class="advanced-form">
             <div class="advanced-field">
                 <label for="query">Query</label>
-                <input id="query" type="text" placeholder="Search terms">
+                <input id="query" name="q" type="text" placeholder="Search terms" required>
             </div>
             <div class="advanced-field">
                 <label for="site">Site</label>
-                <input id="site" type="text" placeholder="example.com">
+                <input id="site" name="as_sitesearch" type="text" placeholder="example.com">
             </div>
             <div class="advanced-field">
                 <label for="lang">Language</label>
-                <input id="lang" type="text" placeholder="English">
+                <input id="lang" name="lr" type="text" placeholder="lang_en">
             </div>
             <button class="advanced-submit" type="submit">Search</button>
         </form>
