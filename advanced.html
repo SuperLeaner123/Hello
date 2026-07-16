@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Search</title>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+    </head>
+    <body>
+        <div class="nav-bar">
+            <a href="index.html">Google Search</a>
+            <a href="images.html">Image Search</a>
+        </div>
+
+        <form class="advanced-form" action="https://www.google.com/search">
+            <h2>Advanced Search</h2>
+            <hr>
+
+        <div class="advanced-field">
+            <label>all these words</label>
+            <input type="search" name="as_q">
+        </div>
+            
+        <div class="advanced-field">
+            <label>this exact word or phrase</label>
+            <input type="search" name="as_epq">
+        </div>
+
+        <div class="advanced-field">
+            <label>any of these words</label>
+            <input type="search" name="as_oq">
+        </div>
+
+        <div class="advanced-field">
+            <label>none of these words</label>
+            <input type="search" name="as_eq">
+        </div>
+            <input type="submit" class="advanced-submit" value="Advanced Search">
+        </form>
+    </body>
+</html>
