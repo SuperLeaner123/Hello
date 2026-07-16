@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Google Image Search</title>
-        <link rel="stylesheet" href="../style.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
-    </head>
-    <body>
-
+<head>
+    <title>Image Search</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="container">
         <div class="nav-bar">
             <a href="index.html">Google Search</a>
             <a href="advanced.html">Advanced Search</a>
         </div>
 
-        <p class = "logoimg">Google Images</p>
-        <form action="https://www.google.com/search">
-            <input type="hidden" name="tbm" value="isch">
+        <p class="logo">Image Search</p>
 
-            <div class="searchimg">
+        <form action="#" class="search-form">
+            <div class="search">
                 <span class="search-icon material-symbols-outlined">search</span>
-                <input class="search-input" type="search" placeholder="Search Images" name="q">
+                <input class="search-input" type="search" placeholder="Search images" name="q">
+            </div>
+
+            <div class="button-row">
+                <input class="lucky" type="submit" value="Search Images">
             </div>
         </form>
-
-    </body>
+    </div>
+</body>
 </html>
